@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-	@GetMapping
-	public Object hello() {
-		Map<String, String> object = new HashMap<>();
-		object.put("name", "Integration Ninjas");
-		object.put("email", "integrationninjas@gmail.com");
-		return object;
-	}
+    @GetMapping
+    public Object hello() {
+        Map<String, String> object = new HashMap<>();
+        object.put("name", "Muhammad Ijlal Nurhadi");
+        object.put("email", "ijlalnurhadi01@gmail.com");
+        return object;
+    }
 
 }
